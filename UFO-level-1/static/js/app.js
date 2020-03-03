@@ -4,13 +4,6 @@ var tableData = data;
 // YOUR CODE HERE!
 table = {}
 
-var cities = tableData.map((sighting) => {
-    return sighting.city;
-});
-console.log("Cities: ", cities); 
-
-
-
 var button = d3.select("#filter-btn");
 
 button.on("click", function() {
