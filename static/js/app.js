@@ -4,7 +4,7 @@ var tableData = data;
 // YOUR CODE HERE!
 table = {}
 
-var button = d3.select("#filter-btn");
+var button = d3.select("#submit-btn");
 
 button.on("click", function() {
     d3.selectAll("tbody>tr").remove();

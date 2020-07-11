@@ -102,6 +102,7 @@ select {
   background-attachment: fixed;
   background-position: bottom center;
   background-size: cover;
+  color: white;
 }
 
 .hero h1 {
